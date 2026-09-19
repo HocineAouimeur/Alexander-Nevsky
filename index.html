@@ -177,6 +177,25 @@
   footer { padding: 26px 0 44px; }
   footer p { color: var(--ink-soft); font-size: 0.82rem; max-width: 64ch; }
 </style>
+
+<style>
+.timeline-image, .hero-image{
+  display:block;
+  max-width:100%;
+  margin:20px auto;
+  border:3px solid rgba(34,27,18,0.2);
+  border-radius:4px;
+}
+.hero-image{max-width:420px;}
+.image-caption{
+  text-align:center;
+  font-size:0.9rem;
+  color:#56492F;
+  margin-top:-8px;
+  margin-bottom:18px;
+}
+</style>
+
 </head>
 <body>
 
@@ -300,7 +319,11 @@
       <h1>Александр Невский</h1>
       <div class="hero-dates">1221 — 1263</div>
       <p class="hero-sub">Новгородский князь, полководец и дипломат, сумевший удержать Русь между двумя угрозами — крестоносцами Запада и Ордой Востока — в самые тяжёлые для неё десятилетия XIII века.</p>
-      <div class="hero-scene">
+      
+<img class="hero-image" src="02-min.jpg" alt="Александр Невский">
+<div class="image-caption">Икона Александра Невского</div>
+
+<div class="hero-scene">
         <svg class="icon side left"><use href="#i-ship"/></svg>
         <span class="divider"></span>
         <svg class="icon center"><use href="#i-shield"/></svg>
@@ -373,7 +396,11 @@
 
         <div class="event">
           <div class="event-marker"><svg class="icon"><use href="#i-shield"/></svg></div>
-          <div class="event-year">1242</div>
+          
+<img class="timeline-image" src="images (1).jfif" alt="Ледовое побоище">
+<div class="image-caption">Ледовое побоище (1242)</div>
+
+<div class="event-year">1242</div>
           <h3>Ледовое побоище</h3>
           <p>5 апреля на льду Чудского озера русское войско наносит решающее поражение Ливонскому ордену. Победа останавливает продвижение крестоносцев на новгородские земли на десятилетия вперёд.</p>
         </div>
@@ -428,6 +455,10 @@
   <section class="legacy">
     <div class="wrap">
       <h2>Память об эпохе</h2>
+
+<img class="timeline-image" src="images.jfif" alt="Александр Невский">
+<div class="image-caption">Портрет Александра Невского</div>
+
       <p class="legacy-intro">Спустя века образ Александра Невского не раз становился символом — церковным, государственным, военным.</p>
       <div class="legacy-grid">
         <div class="legacy-card">
